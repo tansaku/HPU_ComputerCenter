@@ -5,7 +5,7 @@ Feature: Add availability
        
 Scenario: See week's availability
     Given I am logged in as an employee
-    When I click 'My Week'
+    When I click on "My Week"
     Then I should see the times I am working and the times I am available
     
 Scenario: Edit availability
